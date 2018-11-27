@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6218B909-D13A-448D-8A19-372B8C01476B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam.UnityUIExtensions.Unity", "src\src\Bayhaksam.UnityUIExtensions.Unity.csproj", "{DBA34646-C21B-4E8E-A3AB-93CB980EB5D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{7060451F-C7CA-4E0A-827F-1304FD64942F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{A0C38DC4-86A0-40C7-A3FF-71AC0FC6FAE8}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Unity\UnityEditor.dll = lib\Unity\UnityEditor.dll
+		lib\Unity\UnityEngine.dll = lib\Unity\UnityEngine.dll
+		lib\Unity\UnityEngine.UI.dll = lib\Unity\UnityEngine.UI.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnityUIExtensions", "UnityUIExtensions", "{5F62120A-DEF1-4092-ADE2-6E844B32025E}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Unity\UnityUIExtensions\UnityUIExtensions.dll = lib\Unity\UnityUIExtensions\UnityUIExtensions.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A6F2B6CD-ACB2-4126-A3F1-CFE449EC2B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C12B7EDE-3EDE-488A-BD44-4665D2D7E882}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam.UnityUIExtensions.Unity.UI", "src\UI\src\Bayhaksam.UnityUIExtensions.Unity.UI.csproj", "{43C46E19-9BD0-45A1-8B80-5480C1A2BAAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA34646-C21B-4E8E-A3AB-93CB980EB5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA34646-C21B-4E8E-A3AB-93CB980EB5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA34646-C21B-4E8E-A3AB-93CB980EB5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA34646-C21B-4E8E-A3AB-93CB980EB5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C46E19-9BD0-45A1-8B80-5480C1A2BAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C46E19-9BD0-45A1-8B80-5480C1A2BAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C46E19-9BD0-45A1-8B80-5480C1A2BAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C46E19-9BD0-45A1-8B80-5480C1A2BAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBA34646-C21B-4E8E-A3AB-93CB980EB5D3} = {6218B909-D13A-448D-8A19-372B8C01476B}
+		{A0C38DC4-86A0-40C7-A3FF-71AC0FC6FAE8} = {7060451F-C7CA-4E0A-827F-1304FD64942F}
+		{5F62120A-DEF1-4092-ADE2-6E844B32025E} = {A0C38DC4-86A0-40C7-A3FF-71AC0FC6FAE8}
+		{A6F2B6CD-ACB2-4126-A3F1-CFE449EC2B8D} = {6218B909-D13A-448D-8A19-372B8C01476B}
+		{C12B7EDE-3EDE-488A-BD44-4665D2D7E882} = {A6F2B6CD-ACB2-4126-A3F1-CFE449EC2B8D}
+		{43C46E19-9BD0-45A1-8B80-5480C1A2BAAE} = {C12B7EDE-3EDE-488A-BD44-4665D2D7E882}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {274D43FD-3DF2-4F48-82DF-271589757268}
+	EndGlobalSection
+EndGlobal
